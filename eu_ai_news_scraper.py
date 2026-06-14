@@ -264,8 +264,8 @@ def export_from_db(con, json_path="eu_ai_news.json", csv_path="eu_ai_news.csv"):
     rows = con.execute("SELECT * FROM articles ORDER BY scraped_at DESC").fetchall()
     cols = [d[0] for d in con.execute("SELECT * FROM articles LIMIT 0").description]
     articles = [dict(zip(cols, r)) for r in rows]
-    export_json(articles, json_path)
-    export_csv(articles, csv_path)
+    #export_json(articles, json_path)
+    #export_csv(articles, csv_path)
     return articles
 
 # ── Main scrape run ───────────────────────────────────────────────────────────

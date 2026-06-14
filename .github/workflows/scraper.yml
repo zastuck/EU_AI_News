@@ -1,0 +1,45 @@
+name: EU AI News Scraper
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # every 6 hours
+  workflow_dispatch:        # allows manual trigger from GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install feedparser requests schedule
+
+      - name: Restore database from cache
+        uses: actions/cache@v4
+        with:
+          path: eu_ai_news.db
+          key: eu-ai-db-${{ runner.os }}
+          restore-keys: |
+            eu-ai-db-
+
+      - name: Run scraper
+        run: |
+          python eu_ai_news_scraper.py 2>&1 | tee logs/scrape_$(date -u +%Y-%m-%dT%H-%M-%S).log
+
+      - name: Commit database and logs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add eu_ai_news.db logs/
+          git diff --cached --quiet || git commit -m "scrape: $(date -u +%Y-%m-%dT%H:%M:%S)"
+          git push
