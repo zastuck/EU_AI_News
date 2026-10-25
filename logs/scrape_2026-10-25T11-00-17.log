@@ -1,0 +1,166 @@
+11:00:17  INFO     Starting scrape: 27 countries, 5 queries each
+/home/runner/work/EU_AI_News/EU_AI_News/eu_ai_news_scraper.py:230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "scraped_at":   datetime.utcnow().isoformat(),
+11:00:18  INFO     [IT] 'artificial intelligence' → 100 entries, 36 kept so far
+11:00:18  INFO     [PL] 'artificial intelligence' → 100 entries, 20 kept so far
+11:00:18  INFO     [FR] 'artificial intelligence' → 100 entries, 76 kept so far
+11:00:18  INFO     [DE] 'artificial intelligence' → 100 entries, 64 kept so far
+11:00:18  INFO     [ES] 'artificial intelligence' → 100 entries, 67 kept so far
+11:00:19  INFO     [PL] 'AI regulation' → 78 entries, 79 kept so far
+11:00:20  INFO     [ES] 'AI regulation' → 77 entries, 108 kept so far
+11:00:20  INFO     [FR] 'AI regulation' → 100 entries, 165 kept so far
+11:00:20  INFO     [DE] 'AI regulation' → 100 entries, 142 kept so far
+11:00:20  INFO     [IT] 'AI regulation' → 100 entries, 126 kept so far
+11:00:21  INFO     [PL] 'machine learning' → 100 entries, 121 kept so far
+11:00:21  INFO     [FR] 'machine learning' → 100 entries, 219 kept so far
+11:00:21  INFO     [ES] 'machine learning' → 100 entries, 180 kept so far
+11:00:21  INFO     [DE] 'machine learning' → 100 entries, 188 kept so far
+11:00:22  INFO     [IT] 'machine learning' → 100 entries, 193 kept so far
+11:00:23  INFO     [PL] 'EU AI Act' → 78 entries, 144 kept so far
+11:00:23  INFO     [FR] 'EU AI Act' → 100 entries, 265 kept so far
+11:00:23  INFO     [DE] 'EU AI Act' → 100 entries, 263 kept so far
+11:00:23  INFO     [ES] 'EU AI Act' → 77 entries, 212 kept so far
+11:00:23  INFO     [IT] 'EU AI Act' → 100 entries, 238 kept so far
+11:00:24  INFO     [PL] 'generative AI' → 51 entries, 170 kept so far
+11:00:24  INFO     [FR] 'generative AI' → 100 entries, 293 kept so far
+11:00:25  INFO     [DE] 'generative AI' → 100 entries, 293 kept so far
+11:00:25  INFO     [ES] 'generative AI' → 100 entries, 244 kept so far
+11:00:25  INFO     [IT] 'generative AI' → 100 entries, 277 kept so far
+11:00:25  INFO     [PL] +98 new articles saved
+11:00:25  INFO     [FR] +199 new articles saved
+11:00:26  INFO     [NL] 'artificial intelligence' → 100 entries, 6 kept so far
+11:00:26  INFO     [DE] +228 new articles saved
+11:00:26  INFO     [ES] +187 new articles saved
+11:00:26  INFO     [BE] 'artificial intelligence' → 100 entries, 76 kept so far
+11:00:26  INFO     [IT] +212 new articles saved
+11:00:26  INFO     [SE] 'artificial intelligence' → 100 entries, 6 kept so far
+11:00:26  INFO     [AT] 'artificial intelligence' → 100 entries, 52 kept so far
+11:00:27  INFO     [DK] 'artificial intelligence' → 100 entries, 20 kept so far
+11:00:27  INFO     [NL] 'AI regulation' → 79 entries, 54 kept so far
+11:00:28  INFO     [BE] 'AI regulation' → 100 entries, 165 kept so far
+11:00:28  INFO     [SE] 'AI regulation' → 79 entries, 17 kept so far
+11:00:28  INFO     [AT] 'AI regulation' → 100 entries, 128 kept so far
+11:00:28  INFO     [DK] 'AI regulation' → 39 entries, 28 kept so far
+11:00:29  INFO     [NL] 'machine learning' → 100 entries, 95 kept so far
+11:00:29  INFO     [BE] 'machine learning' → 100 entries, 217 kept so far
+11:00:29  INFO     [SE] 'machine learning' → 80 entries, 34 kept so far
+11:00:30  INFO     [AT] 'machine learning' → 100 entries, 174 kept so far
+11:00:30  INFO     [DK] 'machine learning' → 100 entries, 50 kept so far
+11:00:30  INFO     [NL] 'EU AI Act' → 100 entries, 127 kept so far
+11:00:31  INFO     [BE] 'EU AI Act' → 100 entries, 258 kept so far
+11:00:31  INFO     [SE] 'EU AI Act' → 64 entries, 43 kept so far
+11:00:31  INFO     [AT] 'EU AI Act' → 100 entries, 253 kept so far
+11:00:31  INFO     [DK] 'EU AI Act' → 78 entries, 67 kept so far
+11:00:32  INFO     [NL] 'generative AI' → 100 entries, 159 kept so far
+11:00:32  INFO     [BE] 'generative AI' → 100 entries, 283 kept so far
+11:00:32  INFO     [SE] 'generative AI' → 84 entries, 57 kept so far
+11:00:33  INFO     [AT] 'generative AI' → 100 entries, 288 kept so far
+11:00:33  INFO     [DK] 'generative AI' → 100 entries, 100 kept so far
+11:00:33  INFO     [NL] +92 new articles saved
+11:00:33  INFO     [FI] 'artificial intelligence' → 100 entries, 52 kept so far
+11:00:33  INFO     [BE] +35 new articles saved
+11:00:33  INFO     [SE] +30 new articles saved
+11:00:34  INFO     [AT] +55 new articles saved
+11:00:34  INFO     [DK] +59 new articles saved
+11:00:34  INFO     [PT] 'artificial intelligence' → 100 entries, 55 kept so far
+11:00:34  INFO     [CZ] 'artificial intelligence' → 100 entries, 17 kept so far
+11:00:34  INFO     [RO] 'artificial intelligence' → 100 entries, 40 kept so far
+11:00:34  INFO     [HU] 'artificial intelligence' → 100 entries, 15 kept so far
+11:00:35  INFO     [FI] 'AI regulation' → 59 entries, 70 kept so far
+11:00:36  INFO     [CZ] 'AI regulation' → 77 entries, 41 kept so far
+11:00:36  INFO     [PT] 'AI regulation' → 80 entries, 93 kept so far
+11:00:36  INFO     [RO] 'AI regulation' → 78 entries, 47 kept so far
+11:00:36  INFO     [HU] 'AI regulation' → 79 entries, 17 kept so far
+11:00:37  INFO     [FI] 'machine learning' → 90 entries, 107 kept so far
+11:00:37  INFO     [CZ] 'machine learning' → 78 entries, 59 kept so far
+11:00:37  INFO     [PT] 'machine learning' → 100 entries, 162 kept so far
+11:00:37  INFO     [RO] 'machine learning' → 100 entries, 103 kept so far
+11:00:37  INFO     [HU] 'machine learning' → 66 entries, 33 kept so far
+11:00:38  INFO     [FI] 'EU AI Act' → 67 entries, 146 kept so far
+11:00:39  INFO     [CZ] 'EU AI Act' → 74 entries, 75 kept so far
+11:00:39  INFO     [RO] 'EU AI Act' → 33 entries, 129 kept so far
+11:00:39  INFO     [PT] 'EU AI Act' → 79 entries, 173 kept so far
+11:00:39  INFO     [HU] 'EU AI Act' → 78 entries, 55 kept so far
+11:00:39  INFO     [FI] 'generative AI' → 72 entries, 190 kept so far
+11:00:40  INFO     [CZ] 'generative AI' → 82 entries, 100 kept so far
+11:00:40  INFO     [RO] 'generative AI' → 96 entries, 151 kept so far
+11:00:40  INFO     [FI] +111 new articles saved
+11:00:41  INFO     [PT] 'generative AI' → 100 entries, 207 kept so far
+11:00:41  INFO     [GR] 'artificial intelligence' → 100 entries, 44 kept so far
+11:00:41  INFO     [CZ] +73 new articles saved
+11:00:41  INFO     [RO] +102 new articles saved
+11:00:42  INFO     [SK] 'artificial intelligence' → 100 entries, 22 kept so far
+11:00:42  INFO     [PT] +146 new articles saved
+11:00:42  INFO     [IE] 'artificial intelligence' → 100 entries, 56 kept so far
+11:00:42  INFO     [HU] 'generative AI' → 72 entries, 78 kept so far
+11:00:42  INFO     [HR] 'artificial intelligence' → 100 entries, 55 kept so far
+11:00:43  INFO     [GR] 'AI regulation' → 69 entries, 95 kept so far
+11:00:43  INFO     [SK] 'AI regulation' → 21 entries, 24 kept so far
+11:00:43  INFO     [HU] +48 new articles saved
+11:00:44  INFO     [IE] 'AI regulation' → 100 entries, 100 kept so far
+11:00:44  INFO     [BG] 'artificial intelligence' → 100 entries, 34 kept so far
+11:00:44  INFO     [HR] 'AI regulation' → 100 entries, 97 kept so far
+11:00:44  INFO     [GR] 'machine learning' → 90 entries, 129 kept so far
+11:00:44  INFO     [SK] 'machine learning' → 61 entries, 38 kept so far
+11:00:45  INFO     [BG] 'AI regulation' → 46 entries, 44 kept so far
+11:00:45  INFO     [IE] 'machine learning' → 100 entries, 167 kept so far
+11:00:45  INFO     [HR] 'machine learning' → 100 entries, 159 kept so far
+11:00:46  INFO     [GR] 'EU AI Act' → 71 entries, 149 kept so far
+11:00:46  INFO     [SK] 'EU AI Act' → 53 entries, 48 kept so far
+11:00:46  INFO     [BG] 'machine learning' → 56 entries, 53 kept so far
+11:00:47  INFO     [HR] 'EU AI Act' → 100 entries, 243 kept so far
+11:00:47  INFO     [IE] 'EU AI Act' → 100 entries, 236 kept so far
+11:00:47  INFO     [GR] 'generative AI' → 100 entries, 192 kept so far
+11:00:47  INFO     [SK] 'generative AI' → 43 entries, 56 kept so far
+11:00:48  INFO     [BG] 'EU AI Act' → 26 entries, 60 kept so far
+11:00:48  INFO     [HR] 'generative AI' → 100 entries, 314 kept so far
+11:00:48  INFO     [GR] +144 new articles saved
+11:00:48  INFO     [SK] +33 new articles saved
+11:00:48  INFO     [IE] 'generative AI' → 100 entries, 309 kept so far
+11:00:49  INFO     [LT] 'artificial intelligence' → 78 entries, 26 kept so far
+11:00:49  INFO     [SI] 'artificial intelligence' → 100 entries, 41 kept so far
+11:00:49  INFO     [BG] 'generative AI' → 33 entries, 66 kept so far
+11:00:49  INFO     [HR] +297 new articles saved
+11:00:49  INFO     [IE] +130 new articles saved
+11:00:50  INFO     [LV] 'artificial intelligence' → 69 entries, 26 kept so far
+11:00:50  INFO     [EE] 'artificial intelligence' → 96 entries, 46 kept so far
+11:00:50  INFO     [LT] 'AI regulation' → 9 entries, 26 kept so far
+11:00:50  INFO     [BG] +48 new articles saved
+11:00:50  INFO     [SI] 'AI regulation' → 11 entries, 42 kept so far
+11:00:51  INFO     [CY] 'artificial intelligence' → 100 entries, 42 kept so far
+11:00:51  INFO     [LV] 'AI regulation' → 6 entries, 26 kept so far
+11:00:51  INFO     [EE] 'AI regulation' → 8 entries, 47 kept so far
+11:00:51  INFO     [LT] 'machine learning' → 29 entries, 32 kept so far
+11:00:52  INFO     [SI] 'machine learning' → 25 entries, 46 kept so far
+11:00:52  INFO     [CY] 'AI regulation' → 69 entries, 93 kept so far
+11:00:53  INFO     [LV] 'machine learning' → 10 entries, 30 kept so far
+11:00:53  INFO     [EE] 'machine learning' → 12 entries, 50 kept so far
+11:00:53  INFO     [LT] 'EU AI Act' → 28 entries, 34 kept so far
+11:00:53  INFO     [SI] 'EU AI Act' → 28 entries, 49 kept so far
+11:00:54  INFO     [CY] 'machine learning' → 90 entries, 127 kept so far
+11:00:54  INFO     [LV] 'EU AI Act' → 13 entries, 30 kept so far
+11:00:54  INFO     [EE] 'EU AI Act' → 22 entries, 52 kept so far
+11:00:54  INFO     [SI] 'generative AI' → 14 entries, 51 kept so far
+11:00:54  INFO     [LT] 'generative AI' → 16 entries, 40 kept so far
+11:00:55  INFO     [LV] 'generative AI' → 10 entries, 31 kept so far
+11:00:55  INFO     [CY] 'EU AI Act' → 71 entries, 146 kept so far
+11:00:55  INFO     [SI] +25 new articles saved
+11:00:55  INFO     [LT] +20 new articles saved
+11:00:56  INFO     [MT] 'artificial intelligence' → 100 entries, 55 kept so far
+11:00:56  INFO     [EE] 'generative AI' → 12 entries, 56 kept so far
+11:00:56  INFO     [LU] 'artificial intelligence' → 100 entries, 76 kept so far
+11:00:56  INFO     [LV] +17 new articles saved
+11:00:57  INFO     [EE] +36 new articles saved
+11:00:57  INFO     [MT] 'AI regulation' → 100 entries, 97 kept so far
+11:00:57  INFO     [CY] 'generative AI' → 100 entries, 190 kept so far
+11:00:57  INFO     [LU] 'AI regulation' → 100 entries, 165 kept so far
+11:00:58  INFO     [MT] 'machine learning' → 100 entries, 159 kept so far
+11:00:58  INFO     [CY] +11 new articles saved
+11:00:59  INFO     [LU] 'machine learning' → 100 entries, 219 kept so far
+11:00:59  INFO     [MT] 'EU AI Act' → 100 entries, 243 kept so far
+11:01:00  INFO     [MT] 'generative AI' → 100 entries, 314 kept so far
+11:01:00  INFO     [LU] 'EU AI Act' → 100 entries, 265 kept so far
+11:01:01  INFO     [MT] +0 new articles saved
+11:01:02  INFO     [LU] 'generative AI' → 100 entries, 295 kept so far
+11:01:03  INFO     [LU] +1 new articles saved
+11:01:03  INFO     Scrape complete. 2437 new articles this run.
